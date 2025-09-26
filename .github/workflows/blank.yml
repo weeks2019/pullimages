@@ -33,6 +33,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           docker pull gcr.io/cadvisor/cadvisor-arm64:v0.47.2
-          docker login --username=389816017@qq.com --password="WeikeS1105" registry.cn-hangzhou.aliyuncs.com
-          docker tag gcr.io/cadvisor/cadvisor-arm64:v0.47.2 registry.cn-hangzhou.aliyuncs.com/weeks_docker/weeks:v0.47.2
-          docker push registry.cn-hangzhou.aliyuncs.com/weeks_docker/weeks:v0.47.2
+      #    docker login --username=389816017@qq.com --password="WeikeS1105" registry.cn-hangzhou.aliyuncs.com
+      #    docker tag gcr.io/cadvisor/cadvisor-arm64:v0.47.2 registry.cn-hangzhou.aliyuncs.com/weeks_docker/weeks:v0.47.2
+       #   docker push registry.cn-hangzhou.aliyuncs.com/weeks_docker/weeks:v0.47.2
